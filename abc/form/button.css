@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.click:hover {
+    cursor: pointer;
+    background-color:pink;
+    border-radius: 10px;
+    transition-duration: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px red;
+    scale: 2.4;
+}

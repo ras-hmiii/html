@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script</title>
+  </head>
+  <body>
+    <h1 id="heading">Events in Html</h1>
+    <button onclick="displayName()">CLick here to check name</button> <br />
+    <button onclick="document.getElementById('demo').innerHTML=Date()">
+      Current Date and Time:
+    </button>
+    <p id="demo"></p>
+    <script>
+      function displayName() {
+        document.getElementById("heading").innerHTML = "Rashmi K.C";
+      }
+
+      const fruits = ["Apple", "Banana", "Mango", "Kiwi"];
+      var user = {
+        id: 123,
+        name: "Ram",
+        college: "PNC",
+        address: "Pokhara",
+      };
+      const products = [
+        {
+          id: 1111,
+          productname: "Nike 2309",
+          description: "lorem asffdsghsjnjskkkkkk",
+        },
+        {
+          id: 1112,
+          productname: "Nike 2310",
+          description: "lorem asffdsghsjnjskkkkkk",
+        },
+        {
+          id: 1113,
+          productname: "Nike 2311",
+          description: "lorem asffdsghsjnjskkkkkk",
+        },
+      ];
+      for (i = 0; i < products.length; i++) {
+        document.write(products[i]["productname"]);
+      }
+    </script>
+  </body>
+</html>

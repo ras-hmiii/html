@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(236, 236, 250);
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid rgb(12, 2, 71);
+        box-shadow: 2px 2px 6px black;
+        position: relative;
+      }
+      .image {
+        padding: 10px;
+      }
+      .text {
+        padding: 10px;
+        gap: 10px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 700;
+        gap: 20px;
+      }
+      .add {
+        background-color: rgb(245, 53, 158);
+        padding: 5px 50px;
+        border: none;
+      }
+      .pos {
+        background-color: rgb(246, 249, 252);
+        border-radius: 750px;
+        position: absolute;
+        top: -12px;
+        left: 5px;
+        color: rgb(8, 6, 6);
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image">
+        <img src="bimo.PNG" alt="" height="250px" width="250px" />
+      </div>
+      <div class="text">
+        <p>PRODUCT NAME:Sports Bag</p>
+        <p>PRICE:$1000</p>
+        <button class="add">Add to cart</button>
+        <div class="pos">
+          <p>-50% OFF</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

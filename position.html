@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning in HTML</title>
+    
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .nav-bar {
+        display: flex;
+        height: 32px;
+        background-color: aqua;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 24px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #000;
+      }
+
+      .info {
+        padding: 40px;
+        background-color: aqua;
+        margin: 24px;
+        border: 1px solid yellow;
+      }
+
+      .second {
+        /* position: sticky;
+        top: 0px; */
+      }
+
+      .third {
+        width: 400px;
+        position: relative;
+      }
+
+      .badge {
+        padding: 8px 24px;
+        background-color: yellow;
+        border-radius: 64px;
+        position: absolute;
+        top: -16px;
+        left: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <h4 class="logo">Logo</h4>
+      <div class="ctas">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+    </nav>
+    <div class="informations">
+      <div class="info">
+        <h1>Heading 1: First</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+      <div class="info second">
+        <h1>Heading 1: Second</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+      <div class="info third">
+        <span class="badge">New</span>
+        <h1>Heading 1: Third</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+      <div class="info">
+        <h1>Heading 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+      <div class="info">
+        <h1>Heading 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+      <div class="info">
+        <h1>Heading 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus itaque cum explicabo recusandae accusamus eos,
+          architecto eius, incidunt laboriosam quo, omnis doloribus animi
+          numquam molestiae ullam error illo doloremque maxime? Sunt odio
+          architecto, eos dolorem itaque nulla assumenda dolor soluta distinctio
+          aspernatur, perspiciatis dolorum incidunt ducimus amet dolore
+          consequuntur sapiente numquam, tenetur aut laudantium sed. Nostrum
+          officiis ex, iste minus culpa fuga est unde dignissimos quae labore
+          expedita dolorem incidunt aliquam odio rerum perferendis quam. Natus
+          assumenda at dolore consectetur.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

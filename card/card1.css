@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to left, rgb(105, 105, 103) , rgb(216, 219, 215));
+    justify-content: space-around;
+}
+.container{
+    
+    justify-content:center;
+    background-color: rgb(252, 252, 252);
+    border-radius: 8px;
+    border: 2px  solid rgb(229, 235, 235) ;
+    width: 350px;
+    height: 430px;
+    
+
+}
+.small{
+    height: 20px;
+    width: 90px;
+    background-color: rgb(221, 21, 221);
+    border-radius: 8px;
+}
+.photo1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container1{
+    
+    justify-content:center;
+    background-color: rgb(104, 97, 97);
+    border-radius: 8px;
+    border: 2px  solid rgb(114, 108, 106) ;
+    width: 350px;
+    height: 430px;
+    
+
+}
+.small1{
+    height: 20px;
+    width: 90px;
+    background-color: rgb(7, 99, 236);
+    border-radius: 8px;
+}
+.photo1{
+    display: flex;
+    flex-direction: row;
+}
+.container2{
+    
+    justify-content:center;
+    background-color: rgb(229, 238, 245);
+    border-radius: 8px;
+    border: 2px  solid rgb(178, 233, 233) ;
+    width: 350px;
+    height: 430px;
+   
+
+}
+.small2{
+    height: 20px;
+    width: 90px;
+    background-color: pink;
+    border-radius: 8px;
+}
+.photo2{
+    display: flex;
+    flex-direction: row;
+    
+}
+

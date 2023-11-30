@@ -1,0 +1,45 @@
+body{
+
+
+}
+.first{
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    background-color: rgb(249, 236, 250);
+    height: 40;   
+}
+.first span{
+    color:black;
+}
+
+    
+a{
+    padding: 10px;
+}
+.second{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(238, 232, 238);
+    height: 60px;
+
+
+}
+.text{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    gap: 30px;
+}

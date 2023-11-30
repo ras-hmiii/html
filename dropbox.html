@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HTML Positioning</title>
+    <style>
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+     }
+     body{
+        display: flex;
+        flex-direction: column;
+
+
+     }
+     .navigation-bar{
+        background-color: rgb(15, 14, 14);
+        height: 50px;
+    
+     }
+     ul{
+        /* display: inline; */
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+     }
+        li:hover{
+        border-bottom: 5px solid whitesmoke;
+        list-style: none;
+        
+     }
+     li{   
+         border-bottom: 5px  solid transparent;
+    }
+
+    li:hover a {
+       
+                /* color: aqua; */
+                color: aqua !important;
+    
+         
+    }
+     a{
+        color: rgb(118, 181, 236);
+        text-decoration: none; 
+     }
+     .wrapper:hover{
+       position: relative;
+        .choclate{
+            display: flex;
+            flex-direction: column;
+            /* color: pink; */
+        }
+     }
+     .choclate{
+        top: 40px;
+        left: 0px;
+        position: absolute;
+        display: none;
+        border: 2px solid black;
+        background-color: azure;
+        list-style: none;
+        padding: 4px 16px;
+        
+     }
+   
+
+    </style>
+</head>
+<body>
+<nav class="navigation-bar">
+    <ul>
+        <li wrapper-1>
+            <a href="">Conference</a>
+        </li>
+        <li>
+            <a href="">Sponser</a>
+        </li>
+        <li>
+            <a href="">Tavel</a>
+        </li>
+        <li class="wrapper">
+        <a href="">Get Tickets</a>
+        <ul class="choclate">
+            <li><a href="">Pokhara</a></li>
+            <li><a href="">Kathmandu</a></li>
+            <li><a href="">Hetauda</a></li>
+        </li>
+        </ul>
+    </ul>
+</nav>
+    
+    
+</body>
+</html>

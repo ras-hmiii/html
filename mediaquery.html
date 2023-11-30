@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        font-family: "Outfit", sans-serif;
+      }
+      .abc {
+        background-color: pink;
+        height: 40px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+        padding-top: 12px;
+      }
+
+      li > a {
+        text-decoration: none;
+        display: inline;
+        font-weight: 900;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px;
+        justify-content: space-between;
+      }
+      @media all and( max-width:1200px) {
+        .main {
+          grid-template-columns: auto auto auto;
+        }
+      }
+      @media all and( max-width:700px) {
+        .main {
+          grid-template-columns: auto auto;
+        }
+        .abc {
+          display: none;
+        }
+      }
+      @media all and(max-width:300px) {
+        .main {
+          grid-template-columns: auto;
+        }
+        .abc {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="abc">
+      <ul>
+        <li>
+          <a href=""> Home</a>
+        </li>
+        <li>
+          <a href=""> About</a>
+        </li>
+        <li>
+          <a href=""> Services</a>
+        </li>
+      </ul>
+      <i class="fa-solid fa-burger"></i>
+    </nav>
+    <section class="main">
+      <div class="first">
+        <img src="bimo.PNG" alt="" height="250px" width="250px" />
+      </div>
+      <div class="second">
+        <img src="bimo1.PNG" alt="" height="250px" width="250px" />
+      </div>
+      <div class="third">
+        <img src="bimo2.PNG" alt="" height="250px" width="250px" />
+      </div>
+    </section>
+  </body>
+</html>

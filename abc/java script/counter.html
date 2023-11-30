@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <button class="increase">+</button>
+    <input type="text" value="0" class="counter_value">
+    <button class="decrease">-</button>
+    <script>
+        let decrease = document.querySelector('decrease');
+        let counter_value = document.querySelector('counter-value');
+        let increase = document.querySelector('increase');
+        let v=0;
+        count = 0;
+        increase.onclick =function(){
+            v++;
+            counter_value.value=v;
+        }
+        decrease.onclick = function(){
+            if (v==0){
+                v = 0;
+
+            }
+            else{
+            v--;
+            counter_value.value = v;
+        }
+    }
+        </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.sample{
+    font-size: 25px;
+    color: rgb(2, 59, 59);
+    height: 150px;
+    width: 150px;
+    margin-left: 650px;
+    margin-bottom: 550px ;
+    margin-top: 200px;
+    border: 10px solid rgb(179, 255, 0);
+    background-color: antiquewhite;
+    
+}
+body{
+    background-image: url(dahlia-red-blossom-bloom-60597.jpeg);
+    
+    background-repeat: repeat-x;
+    background-size: 50%;
+}
+
